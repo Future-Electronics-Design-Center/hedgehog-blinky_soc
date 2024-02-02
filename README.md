@@ -24,6 +24,8 @@ With the Propel design opened in Radiant, the next step would be to add the cons
 
 ## 3. Getting started - Propel SDK
 
+Startup Lattice Propel v2023.2 to build the software design.  Propel will first ask for the location of your workspace.  The exact location isn't critical and can be created wherever you prefer.  For convenience, the folder workspace/ is included in the .gitignore for this repository so you can create a workspace folder within the folder of this reference design repository.  Once the workspace has been created, the software project needs to be "imported" into the workspace.  From the File menu, select the "Import..." item.  From the import dialog, expand the "General" folder and select "Existing Projects into Workspace". Make sure the "Select root directory:" options is selected and then click the "Browse..." button to the blinky_sw folder.  The blinky_soc project should be detected and selected in the Projects window.  Click the "Finish" button to complete the import.
+
 ## 4. Configuring the FPGA
 
 Use the Lattice Programmer (accessible from Radiant) to program the FPGA via the J3 micro-USB connector.  Use the default "Fast Configuration" programming operation to write the bitstream directly to the FPGA configuration SRAM.  See the section [Storing Bitstream to Flash]() for directions on storing the configuration image to the internal configuration flash.
