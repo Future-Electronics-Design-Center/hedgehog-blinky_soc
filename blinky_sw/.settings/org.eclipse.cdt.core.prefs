@@ -16,7 +16,7 @@ environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/LOCATION/value=0002
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/PORT/delimiter=;
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/PORT/operation=replace
-environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/PORT/value=FTUSB-2
+environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/PORT/value=FTUSB-1
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/TCKDIV/delimiter=;
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/TCKDIV/operation=replace
 environment/project/ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.debug.1054737951/TCKDIV/value=1
