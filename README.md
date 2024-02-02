@@ -6,7 +6,7 @@
 - The design implements a soft RISC-V MC MCU running 90MHz
 - The design also supports USB-UART output via the PMOD connector J8 - [Digilent USBUART Pmod](https://digilent.com/shop/pmod-usbuart-usb-to-uart-interface/)
 - This design currently targets Lattice Propel/Radiant v2023.2
-- Refer to the [Propel Design Summary](documentation/soc_html/SoC_Memory_Map.html) for details
+- Refer to the [Propel Design Summary](docs/soc_html/SoC_Memory_Map.html) for details
 
 **Follow the sections below, in order, to build and run the design on the Hedgehog board**
 
