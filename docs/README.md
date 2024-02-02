@@ -1,5 +1,7 @@
 # Hedgehog blinky_soc Reference Design
 
+### Follow this link to the [blinky_soc GitHub repository](https://github.com/Future-Electronics-Design-Center/hedgehog-blinky_soc/tree/main)
+
 ## Overview
 
 - This is a "basic blinky", out-of-box reference design for the Hedgehog Development Board
@@ -8,21 +10,24 @@
 - This design currently targets Lattice Propel/Radiant v2023.2
 - Refer to the [Propel Design Summary](soc_html/SoC_Memory_Map.html) for details
 
+
 **Follow the sections below, in order, to build and run the design on the Hedgehog board**
 
 ## 1. Prerequsites
 
-The following Propel Builder IPs need to be installed prior to running the tcl script in the next step.  Be sure to have these installed first.
+The following Propel Builder IPs need to be installed prior to running the tcl script in the next step.  **Be sure to have these pre-installed first.**
 
-`RISC-V MC		v2.5.0
-`GPIO			v1.6.1
-`I2C Controller		v2.0.0
-`SPI Controller		v2.1.0
-`System Memory		v2.1.0
-`UART			v1.3.0
-`AHB Lite Interconnect	v1.3.0
-`AHB Lite to APB Bridge	v1.1.0
-`APB Interconnect	v1.2.0
+| Propel IP | Version |
+| --------- | ------ |
+| RISC-V MC | v2.5.0 |
+| GPIO	| v1.6.1 |
+| I2C Controller | v2.0.0 |
+| SPI Controller | v2.1.0 |
+| System Memory	| v2.1.0 |
+| UART | v1.3.0 |
+| AHB Lite Interconnect | v1.3.0 |
+| AHB Lite to APB Bridge | v1.1.0 |
+| APB Interconnect | v1.2.0 |
 
 
 ## 2. Getting Started - Propel Builder
