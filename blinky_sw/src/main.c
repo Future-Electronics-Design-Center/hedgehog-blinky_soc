@@ -141,7 +141,8 @@ int main(void) {
                          X$$    xxXX$X         $+xXXxxxXxX$$$    X$x            \n\
                          x$$Xxx$XXXx                      +$&$$xXXX+            \n\
                           xxXXxX+                            XXxxx              \n\
-                                                                                ");
+\n\
+Future Electronics Inc. 2024");
 
 	while (true) {
 		gpio_output_write(&gpio_inst, idx, pin_state);
