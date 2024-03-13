@@ -105,10 +105,20 @@ static void bsp_init(void)
 #endif
 }
 
+static unsigned int getSwitches()
+{
+    unsigned int sw;
+
+    gpio_input_get(&gpio_inst, 0, &sw);
+
+    return sw;
+}
+
 
 int main(void) {
 	static uint8_t idx = 0;
 	static uint8_t pin_state = 0xFF;
+	static unsigned int sw, temp;
 
 	bsp_init();
 
@@ -142,7 +152,10 @@ int main(void) {
                          x$$Xxx$XXXx                      +$&$$xXXX+            \n\
                           xxXXxX+                            XXxxx              \n\
 \n\
-Future Electronics Inc. 2024");
+Future Electronics Inc. 2024\n");
+
+    sw = getSwitches();
+    printf("\n\nSwitch state = 0x%x\n", sw);
 
 	while (true) {
 		gpio_output_write(&gpio_inst, idx, pin_state);
@@ -150,6 +163,13 @@ Future Electronics Inc. 2024");
 		if (++idx == LED_COUNT) {
 			idx = 0;
 			pin_state = ~pin_state;
+		}
+
+		temp = getSwitches();
+		if (sw != temp)
+		{
+			sw = temp;
+			printf("Switch state = 0x%x\n", sw);
 		}
 
 		if (RTL_SIM) {
