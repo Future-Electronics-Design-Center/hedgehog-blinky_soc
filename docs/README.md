@@ -20,8 +20,8 @@ The following Propel Builder IPs need to be installed prior to running the tcl s
 | Propel IP | Version |
 | --------- | ------ |
 | RISC-V MC | v2.5.0 |
-| GPIO	| v1.6.1 |
-| I2C Controller | v2.0.0 |
+| GPIO	| v1.6.2 |
+| I2C Controller | v2.0.1 |
 | SPI Controller | v2.1.0 |
 | System Memory	| v2.1.0 |
 | UART | v1.3.0 |
