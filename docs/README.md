@@ -6,7 +6,7 @@
 
 - This is a "basic blinky", out-of-box reference design for the Hedgehog Development Board
 - The design implements a soft RISC-V MC MCU running 90MHz
-- The design also supports USB-UART output via the PMOD connector J8 - [Digilent USBUART Pmod](https://digilent.com/shop/pmod-usbuart-usb-to-uart-interface/)
+- The design also supports UART output via the FTDI FT2232HL port B micro USB connector J3
 - This design currently targets Lattice Propel/Radiant v2023.2
 - Refer to the [Propel Design Summary](soc_html/SoC_Memory_Map.html) for details
 
